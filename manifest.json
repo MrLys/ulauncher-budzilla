@@ -1,0 +1,47 @@
+{
+    "required_api_version": "2",
+    "name": "Budzilla",
+    "description": "Knowledge base",
+    "developer_name": "Thomas Lys",
+    "icon": "images/budzilla1_cropped.png",
+    "options": {
+        "query_debounce": 0.1
+    },
+    "preferences": [
+        {
+            "id": "budzilla_kw",
+            "type": "keyword",
+            "name": "Budzilla",
+            "description": "Budzilla trigger",
+            "default_value": "bz"
+        },
+        {
+            "id": "budzilla_username",
+            "type": "input",
+            "name": "Username",
+            "description": "Budzilla username",
+            "default_value": "username"
+        },
+        {
+            "id": "budzilla_password",
+            "type": "input",
+            "name": "Password",
+            "description": "Budzilla password",
+            "default_value": "password"
+        },
+        {
+            "id": "budzilla_auth_url",
+            "type": "input",
+            "name": "Authentication URL",
+            "description": "Budzilla Authentication URL",
+            "default_value": "url"
+        },
+        {
+            "id": "budzilla_entry_url",
+            "type": "input",
+            "name": "Budzilla URL",
+            "description": "Budzilla URL",
+            "default_value": "url"
+        }
+    ]
+}
